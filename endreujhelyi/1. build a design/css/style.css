@@ -51,6 +51,13 @@ article {
   padding-right: 40px;
 }
 
+article:after {
+  content: url("../images/edit-icon.png");
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
 
 
 /* TABLE */
@@ -66,13 +73,6 @@ tr {
 
 th, td {
   flex: 1;
-}
-
-table:after {
-  content: url("../images/edit-icon.png");
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
 }
 
 
