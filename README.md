@@ -84,8 +84,8 @@ Add your answer to this readme file, commit your changes to this repository.
 
 The distance will be 40px from the right and from the top as well. Because the .foo element is the parent element what has an absolute position and the distance of 20px from the top and the left side of the document so the .bar element is the child what has got the same distances. But this 20px is counted from the side of the parent element what has got a 'position: absolute' value. This is establish containing elements as positioning ascestors.
 
-.foo left: 20px + .bar left: 20px = 40px
-      top: 20px +       top: 20px = 40px
+.foo left: 20px + .bar left: 20px = |40px|
+      top: 20px +       top: 20px = |40px|
 
 
 
@@ -96,6 +96,16 @@ Add your answer to this readme file, commit your changes to this repository.
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
 
+If an element has a display property with block value than it fills the whole width of the parent element and don't let another next to it.
+
+If something has an inline value then it let more element next to each other until they fill the whole width and than wrap to the next line.
+
+Inline-block value is a mix of the first two. Elements sit next to each other without wrapping and behave like they'd be inside a block container so they move together. It's a very useful technique for navbars.
+
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+
+<article> like its name says mostly suggest to a comment, an article, a longer text what can be come from an another page. For example a good way to use it for a blog post or a newspaper article.
+
+<section> marks a shorter type of text, a part of an article but it comes with a heading like the <article>. A website could be split into sections for an introduction, main-content, contacts, etc.
