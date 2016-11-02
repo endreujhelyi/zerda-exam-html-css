@@ -82,6 +82,12 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 
+The distance will be 40px from the right and from the top as well. Because the .foo element is the parent element what has an absolute position and the distance of 20px from the top and the left side of the document so the .bar element is the child what has got the same distances. But this 20px is counted from the side of the parent element what has got a 'position: absolute' value. This is establish containing elements as positioning ascestors.
+
+.foo left: 20px + .bar left: 20px = 40px
+      top: 20px +       top: 20px = 40px
+
+
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.

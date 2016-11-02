@@ -1,0 +1,87 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+
+
+/* CARD-BOX STYLES */
+
+h1 {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.card-box {
+  width: 542px;
+  height: 180px;
+  margin: 10px;
+  position: relative;
+}
+
+body .card-box:first-child {
+  background-color: #fffff1;
+}
+
+body .card-box:last-child {
+  background-color: #acb8df;
+}
+
+article {
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+
+
+/* TABLE */
+
+table {
+  width: 210px;
+  text-align: left;
+}
+
+tr {
+  display: flex;
+}
+
+th, td {
+  flex: 1;
+}
+
+table:after {
+  content: url("../images/edit-icon.png");
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+
+
+/* IMAGES */
+
+.card-box img {
+  float: left;
+  height: 180px;
+  border-right: 10px solid #556392;
+  margin-right: 20px;
+}
